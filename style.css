@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+    background-image: url("/static/images/background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;   
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    padding: 1px;
+    background-color: #222;
+
+}
+
+.menu a {                       /* home ... contact us */
+
+    color: #ccc;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: #fff;
+    }
+
+.menu h2{                       /* Aswant A Ambali */
+
+    color: #fff;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: auto;
+
+}
+
+.button {
+    text-align: center;         /* insta github.... ico */
+
+}
+
+.main {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}

@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: rgb(255, 255, 255);
-    background-image: url("background.jpg");
+    background-color: #EAE7DD ;
+    /*background-image: url("background.jpg");*/
     background-repeat: no-repeat; 
     background-size: cover;   
 }
@@ -10,13 +10,13 @@ body {
     display: flex;
     justify-content: end;
     padding: 1px;
-    background-color: #222;
+    background-color: #99775C;
 
 }
 
 .menu a {                       /* home ... contact us */
 
-    color: #ccc;
+    color: #323232;
     margin-top: auto;
     margin-bottom: auto;
     text-decoration: none;
@@ -31,7 +31,7 @@ body {
 
 .menu h2{                       /* Aswant A Ambali */
 
-    color: #fff;
+    color: #323232;
     text-align: left;
     margin-left: 1%;
     margin-right: auto;
@@ -40,11 +40,31 @@ body {
 
 .button {
     text-align: center;         /* insta github.... ico */
-
+    text-decoration: none;
 }
 
-.main {
-    text-align: center;
-    color: rgb(0, 0, 0);
+.button a{
+    text-decoration: none;
+}
 
+.main_text {
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+    padding: 5%;
+}
+
+.main_text p{
+    font-size: small;
+}
+ 
+.main_img{
+    float: left;
+    height: auto;
+    padding: 5%;
+}
+
+.main_img img{
+    height: auto;
+    width: 300px;
 }

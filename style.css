@@ -17,10 +17,10 @@ body {
 .menu a {                       /* home ... contact us */
 
     color: #323232;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-block-start: auto;
+    margin-block-end: auto;
     text-decoration: none;
-    margin-right: 20px;
+    margin-inline-end: 20px;
     font-family: Arial, sans-serif;
     font-size: 17px;
 }
@@ -32,39 +32,55 @@ body {
 .menu h2{                       /* Aswant A Ambali */
 
     color: #323232;
-    text-align: left;
-    margin-left: 1%;
-    margin-right: auto;
+    text-align: start;
+    margin-inline-start: 1%;
+    margin-inline-end: auto;
 
 }
 
-.button {
-    text-align: center;         /* insta github.... ico */
-    text-decoration: none;
-}
-
-.button a{
-    text-decoration: none;
-}
 
 .main_text {
     text-align: center;
     color: #000000;
     overflow: hidden;
-    padding: 5%;
+    padding-top: 5%;
+    padding-right: 10%;
 }
 
-.main_text p{
-    font-size: small;
+.main_text h1{
+    font-size: 87px;
+
 }
+.main_text p{
+    font-family:  sans-serif;
+    
+}
+
  
 .main_img{
-    float: left;
-    height: auto;
-    padding: 5%;
+    float: inline-start;
+    block-size: auto;
+    padding-left: 5%;
 }
 
 .main_img img{
-    height: auto;
-    width: 75%;
+    block-size: auto;
+    inline-size: 75%;
+}
+
+.button {
+    text-align: center;         /* insta github.... ico */
+    text-decoration: none;
+    padding-top: 10%;
+    
+}
+
+.button a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.button p{
+    font-size: small;
+    font-family: cursive;
 }
